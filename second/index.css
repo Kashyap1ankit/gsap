@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+#page-1 {
+  background-color: skyblue;
+}
+
+#page-2 {
+  background-color: yellowgreen;
+}
+#page-3 {
+  background-color: yellow;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(red, orange);
+}
